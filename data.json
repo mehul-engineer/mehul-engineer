@@ -78,19 +78,24 @@
     }
   ],
   "certifications": [
-    
+    {
+      "name": "Mathematics for Machine Learning and Data Science",
+      "issuer": "DeepLearning.ai",
+      "year": "October 2026",
+      "link": "https://www.deeplearning.ai/certificates/b47cd336-ce00-43bd-a254-bcb678769197?_gl=1*13enllp*_ga*MTk4NjE1OTg1OC4xNzgwNjYyODM5*_ga_FR2MZ1VLMS*czE3OTEzODQwNjQkbzM2JGcxJHQxNzkxMzg2OTA4JGo1NyRsMCRoMA..&usp=sharing"
+    },
+    {
+      "name": "Building Django Applications with Databases",
+      "issuer": "IBM",
+      "year": "September 2026",
+      "link": "https://www.credly.com/badges/21a593af-1029-4dae-a95a-5b564cd56d12/public_url"
+    },
         {
       "name": "Multicore and GPGPU Programming",
       "issuer": "Birla Institute of Technology & Science, Pilani <strong>via Coursera</strong>",
-      "year": "2026",
+      "year": "September 2026",
       "link": "https://www.coursera.org/account/accomplishments/verify/WJ1JZGBEMOXS"
-    },
-                   {
-      "name": "Building Django Applications with Databases",
-      "issuer": "IBM",
-      "year": "2026",
-      "link": "https://www.credly.com/badges/21a593af-1029-4dae-a95a-5b564cd56d12/public_url"
-    }
+    } 
   ],
   "recommendations": [
     {
