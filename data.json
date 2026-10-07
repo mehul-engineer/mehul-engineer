@@ -36,7 +36,7 @@
       "title": "BBRES-RNG: Scheduler-Based Entropy Engine",
       "desc": "I architected a scheduler-based entropy engine that utilizes OS thread-scheduling nondeterminism to produce high-quality entropy for PRNG/CSPRNG seeding. The system supports 32x32 concurrent thread-segment execution and features modular entropy collection, bit mixing, and bounded random number generation. It achieved a near-perfect 7.999952/8.0 Shannon entropy and demonstrated exceptional statistical robustness against NIST SP 800-22 and adversarial machine learning attacks.",
       "tech": ["Java", "Concurrency", "Entropy", "NIST SP 800-22"],
-      "link": "https://github.com/mehul-engineer/Bit-Based-Randomized-Entropy-System-Scheduler-Based-RNG"
+      "link": "https://mehul.engineer/articles/article.html?id=sys-eng%2F001"
     },
     {
       "title": "Zero-Copy Segmented Commit Log",
