@@ -3,7 +3,7 @@
     {
       "id": "sys-eng/001",
       "title": "BBRES RNG: A Scheduler Driven Approach to Random Bit Generation",
-      "date": "MARCH 2026",
+      "date": "6 OCTOBER 2026",
       "category": "Systems Engineering",
       "abstract": "BBRES-RNG began with a systems question: can the order in which many threads reach a shared synchronization point be turned into a useful bit-generation process? I built the project in Java as a layered design: worker threads contend for a synchronized allocator, the observed assignment order is reduced to bits, and rejection sampling maps those bits into a requested integer range. The result is a distinctive exploration of concurrency as a source of runtime variation, combining thread scheduling, identifier ordering, XOR reduction, and bounded sampling in one pipeline.<br><br><code>Project focus</code>: BBRES-RNG is an engineering experiment in converting execution order into data. Its distinctive contribution is the way it connects a hierarchical thread race to a bit-selection and integer-generation pipeline.",
       "authors": [
