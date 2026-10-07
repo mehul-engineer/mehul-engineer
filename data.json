@@ -1,0 +1,172 @@
+{
+  "hero": {
+    "role": "AI & Systems Engineer",
+    "name": "Mehul Singh.",
+    "upper_text": "AI & SYSTEMS",
+    "profession": "ENGINEER.",
+    "description": "I build systems from first principles. My work spans <strong>computational architectures, systems engineering, and high-performance computing</strong>."
+  },
+  "evolves": {
+    "title": "Stealth Laboratory (evolves.cc)",
+    "description": "A private, stealth-phase laboratory advancing the frontiers of computational physics, artificial intelligence, and algorithmic engineering.",
+    "url": "https://evolves.cc"
+  },
+  "about": {
+    "text": "I am a systems researcher and engineer driven by a fundamental need to understand how things work at their core. Rather than assembling off-the-shelf components, I deconstruct problems to their base assumptions, focusing on structural elegance, mathematical correctness, and computational efficiency. My cross-domain approach bridges physical system behavior with software architecture, allowing me to conceptualize and build robust systems characterized by deep analytical maturity and rigorous validation.",
+    "stats": [
+      { "title": "AI & Systems", "subtitle": "Research & Arch" },
+      { 
+        "title": "Top 5%", 
+        "subtitle": "Analytical Ability",
+        "citation": "Ref: LOR (Dr. Pandey)",
+        "citation_link": "recommendations.html#drkrishnakantpandey"
+      },
+      { "title": "B.Tech", "subtitle": "Computer Science & Engineering" },
+      { "title": "∞", "subtitle": "First Principles" }
+    ]
+  },
+  "projects": [
+    {
+      "title": "Next-Gen Operating System (In Progress)",
+      "desc": "I founded and am spearheading a long-term, open-source initiative to architect and build a custom, secure-by-design operating system from scratch. As the lead systems engineer, I design the core kernel internals, preemptive thread scheduling, and low-level memory management for high-performance, bare-metal execution. Beyond core development, I drive the project's long-term research vision, focusing on next-generation computing concepts like hardware-agnostic portability and AI-assisted resource allocation.",
+      "tech": ["Rust", "Assembly", "Kernel Architecture", "Systems Design"],
+      "link": "https://os.evolves.cc"
+    },
+    {
+      "title": "BBRES-RNG: Scheduler-Based Entropy Engine",
+      "desc": "I architected a scheduler-based entropy engine that utilizes OS thread-scheduling nondeterminism to produce high-quality entropy for PRNG/CSPRNG seeding. The system supports 32x32 concurrent thread-segment execution and features modular entropy collection, bit mixing, and bounded random number generation. It achieved a near-perfect 7.999952/8.0 Shannon entropy and demonstrated exceptional statistical robustness against NIST SP 800-22 and adversarial machine learning attacks.",
+      "tech": ["Java", "Concurrency", "Entropy", "NIST SP 800-22"],
+      "link": "https://github.com/mehul-engineer/Bit-Based-Randomized-Entropy-System-Scheduler-Based-RNG"
+    },
+    {
+      "title": "Zero-Copy Segmented Commit Log",
+      "desc": "I engineered a high-throughput segmented commit log designed for concurrent appends, crash recovery, and persistent storage. By minimizing synchronization overhead, the system achieved a processing rate of over 4.39 million messages per second across four concurrent producer threads. I also implemented scalable segment lifecycle management, ensuring automatic creation, rollover, and recovery for a production-ready storage solution.",
+      "tech": ["Java", "NIO", "Concurrency", "Storage Systems"],
+      "link": "https://github.com/mehul-engineer/Zero-Copy-Segmented-Commit-Log.git"
+    },
+    {
+      "title": "Archiver",
+      "desc": "I architected a custom binary archive format featuring recursive directory packaging, metadata preservation, and CRC32 integrity verification. To optimize performance, I engineered a streaming archive engine that enables the scalable, memory-efficient processing of large files and nested directories. Furthermore, I developed a pluggable compression framework utilizing the Strategy Pattern to seamlessly integrate Huffman and LZW compression algorithms.",
+      "tech": ["Algorithm Design", "Java", "Compression Algorithms"],
+      "link": "https://github.com/mehul-engineer/archiver.git"
+    },
+        {
+      "title": "MEDMSII: A character Encoding/Decoding Tool",
+      "desc": "Built a lightweight text obfuscation tool in Java that maps characters to custom binary codes, injects randomized noise bits, and applies a bitwise complement for scrambling, paired with a decoder that exactly reverses each step. A hands-on exploration of binary representation and building invertible algorithms.",
+      "tech": ["Java", "Data Structures", "Bitwise Operations", "Binary Encoding", "String Manipulation", "Algorithm Design", "Object-Oriented Programming"],
+      "link": "https://github.com/mehul-engineer/medmsii.git"
+    },
+    {
+      "title": "Vointhez",
+      "desc": "Authored a whitepaper proposing a new phonetic segmentation method for text-to-speech: splitting words into two-character pronunciation units via exhaustive lookup tables (676 letter-pair combinations, plus numeral and symbol libraries).",
+      "tech": ["Natural Language Processing (NLP)", "Algorithm Design", "Speech Synthesis Concepts"],
+      "link": "https://workdrive.zohoexternal.in/file/6o213b9a5825f68b540cebc6925ce3f8effa7"
+    }
+  ],
+    "experience": [
+    {
+      "date": "May 2026 - June 2026",
+      "role": "Research Intern",
+      "org": "TEXMIN Lab, IIT ISM Dhanbad",
+      "desc": "Built a domain-specific tokenizer for mining and geological text as part of applied NLP research. Optimized tokenization algorithms to handle technical vocabulary heavily underrepresented in standard text corpora."
+    },
+    {
+      "date": "2024 - Present",
+      "role": "B.Tech, Computer Science & Engineering",
+      "org": "Manipal University Jaipur",
+      "desc": "Undergraduate studies with a heavy independent research focus on AI systems, NLP, and computational foundations. Recognized among the top tier for research potential and analytical execution. Dean's List 2024, Student Excellence Award 2025."
+    }
+  ],
+  "certifications": [
+        {
+      "name": "Multicore and GPGPU Programming",
+      "issuer": "Birla Institute of Technology & Science, Pilani <strong>via Coursera</strong>",
+      "year": "2026",
+      "link": "https://www.coursera.org/account/accomplishments/verify/WJ1JZGBEMOXS"
+    },
+                   {
+      "name": "Building Django Applications with Databases",
+      "issuer": "IBM",
+      "year": "2026",
+      "link": "https://www.credly.com/badges/21a593af-1029-4dae-a95a-5b564cd56d12/public_url"
+    }
+
+  ],
+  "recommendations": [
+    {
+      "name": "Mr. Suraj Prakash",
+      "role": "CEO, TEXMIN(TTRP) Foundation, IIT(ISM) Dhanbad",
+      "text": "He has a deep understanding of LLMs, software architecture and drives methodical data backed innovation.",
+      "link": "https://www.linkedin.com/in/singhmehul2006/details/recommendations/"
+    },
+    {
+      "name": "Dr. Ankur Soam",
+      "role": "Ph.D. IIT Bombay, M.Tech IIT Delhi",
+      "text": "He stands out for his research-oriented mindset, focusing on fundamental understanding rather than superficial solutions.",
+      "link": "https://workdrive.zohoexternal.in/file/6o2136425bf90b43e4524bcfda0984b158b5f"
+    },
+    {
+      "name": "Dr. Krishna Kant Pandey",
+      "role": "Ph.D. NIT Rourkela",
+      "text": "I would place Mehul among the top 5% of students I have encountered in terms of analytical ability and research potential.",
+      "link": "https://workdrive.zohoexternal.in/file/6o2138a0855331bc942ae8316e1af11660433"
+    },
+    {
+      "name": "Dr. Surbhi Sharma",
+      "role": "Ph.D. Banasthali Vidyapith",
+      "text": "What distinguishes Mehul is his ability to combine conceptual depth with practical system-building skills.",
+      "link": "https://workdrive.zohoexternal.in/file/6o2136319fe842ba34ba2bf7b9f1d342f8d81"
+    },
+    {
+      "name": "Dr. Shishir Singh Chauhan",
+      "role": "Ph.D. NIT Jamshedpur",
+      "text": "He considers architecture, usability, scalability, and the broader implications of technical decisions rather than focusing solely on functionality.",
+      "link": "https://workdrive.zohoexternal.in/file/6o21315becb59037241efbc7cc4360a8982f4"
+    },
+    {
+      "name": "Dr. Dinesh Sharma",
+      "role": "Ph.D. Uttarakhand Technical University",
+      "text": "I'd comfortably place him in the top 5% of undergraduates I've taught in terms of research potential and technical initiative.",
+      "link": "https://www.linkedin.com/in/singhmehul2006/details/recommendations/"
+    },
+    {
+      "name": "Mr. Raghuvesh Tiwari",
+      "role": "M.Tech. Rajasthan Technical University",
+      "text": "In my decade-long teaching career, I have rarely encountered an undergraduate student with his level of insight.",
+      "link": "https://www.linkedin.com/in/singhmehul2006/details/recommendations/"
+    }
+  ],
+  "skills": [
+    {
+      "category": "Languages",
+      "list": ["Java", "Python", "C", "Rust"]
+    },
+    {
+      "category": "Systems Engineering",
+      "list": ["Operating Systems", "Distributed Systems", "Computer Networks", "Concurrency", "Parallel Computing", "High-Performance Computing", "Memory Management"]
+    },
+    {
+      "category": "AI & ML",
+      "list": ["Machine Learning", "Deep Learning", "Natural Language Processing", "Automatic Differentiation", "Tensor Computing", "Computational Graphs", "Neural Networks", "Model Optimization"]
+    },
+    {
+      "category": "Security",
+      "list": ["End-to-End Encryption", "Cryptography", "Authentication & Authorization", "Secure Communication Protocols"]
+    },
+    {
+      "category": "AI Frameworks & Libraries",
+      "list": ["PyTorch","NumPy","Pandas","Scikit-learn","PyO3","Django","CUDA"]
+    },
+    {
+      "category": "Core CS",
+      "list": ["Data Structures & Algorithms", "Object-Oriented Programming", "Design Patterns", "Database Management Systems"]
+    }
+  ],
+  "contact": {
+    "email": "hello@mehul.engineer",
+    "location": "Jaipur, Rajasthan, India",
+    "resume": "https://workdrive.zoho.in/file/6o213b50fff30efb4463b86ee840f9c74b4a8",
+    "github": "https://github.com/mehul-engineer",
+    "linkedin": "https://linkedin.com/in/mehulengineer"
+  }
+}
