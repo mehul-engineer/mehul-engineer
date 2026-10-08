@@ -1,11 +1,12 @@
 {
   "articles": [
+    
     {
   "id": "ai-speech/002",
   "title": "TTS Reengineered: A Novel Approach",
   "date": "2023",
   "category": "Voice Synthesis",
-  "abstract": "Vointhez introduces a new, highly efficient, and flexible algorithm for voice synthesis[cite: 4]. The system precisely models the complexities of human speech production to capture the nuances of pronunciation and rhythm[cite: 4].<br><br><code>Project focus</code>: By utilizing a predictable alphabetical pattern breakdown and specialized libraries, Vointhez offers a highly adaptable solution for customer service, virtual assistants, and access technologies[cite: 4, 5].",
+  "abstract": "Vointhez introduces a new, highly efficient, and flexible algorithm for voice synthesis. The system precisely models the complexities of human speech production to capture the nuances of pronunciation and rhythm.<br><br><code>Project focus</code>: By utilizing a predictable alphabetical pattern breakdown and specialized libraries, Vointhez offers a highly adaptable solution for customer service, virtual assistants, and access technologies.",
   "authors": [
     {
       "name": "Mehul Singh",
@@ -15,23 +16,23 @@
   "sections": [
     {
       "heading": "Introduction",
-      "body": "<p>In the past few years, the demand for natural-sounding speech has driven significant growth in the field of voice synthesis[cite: 4]. While conventional methods have proven effective, the Vointhez project relies on a new algorithm that is more efficient, simpler, and more flexible[cite: 4].</p><p>Vointhez models the complexities underlying human speech production with precision, capturing the nuances of pronunciation and rhythm[cite: 4]. It is highly customizable for different applications and languages, and integrates seamlessly with many platforms and devices[cite: 4].</p>"
+      "body": "<p>In the past few years, the demand for natural-sounding speech has driven significant growth in the field of voice synthesis. While conventional methods have proven effective, the Vointhez project relies on a new algorithm that is more efficient, simpler, and more flexible.</p><p>Vointhez models the complexities underlying human speech production with precision, capturing the nuances of pronunciation and rhythm. It is highly customizable for different applications and languages, and integrates seamlessly with many platforms and devices.</p>"
     },
     {
       "heading": "Algorithm Explained: Alphabetical Pattern Breakdown",
-      "body": "<p>The backbone of this approach is the alphabetical pattern breakdown, where the phonetic realization of a word is segmented into specific sequences of phonemes along predictable lines[cite: 5].</p><ul><li><b>Case 1: Words Having Even Number of Characters</b> - The word <code>abacus</code> is pronounced as <code>ab-ac-us</code>[cite: 5].</li><li><b>Case 2: Words Having Odd Number of Characters</b> - The word <code>steel</code> is pronounced as <code>st-ee-l</code>[cite: 5].</li></ul><p>To facilitate this, the system maps out exhaustive character sets starting with each letter of the alphabet (e.g., <code>aa ab ac ad ae af...</code>)[cite: 5].</p>"
+      "body": "<p>The backbone of this approach is the alphabetical pattern breakdown, where the phonetic realization of a word is segmented into specific sequences of phonemes along predictable lines.</p><ul><li><b>Case 1: Words Having Even Number of Characters</b> - The word <code>abacus</code> is pronounced as <code>ab-ac-us</code>.</li><li><b>Case 2: Words Having Odd Number of Characters</b> - The word <code>steel</code> is pronounced as <code>st-ee-l</code>.</li></ul><p>To facilitate this, the system maps out exhaustive character sets starting with each letter of the alphabet (e.g., <code>aa ab ac ad ae af...</code>).</p>"
     },
     {
       "heading": "Specialized Libraries",
-      "body": "<p>Beyond standard character groupings, Vointhez utilizes several separate libraries to manage different components of speech[cite: 7]:</p><ul><li><b>Special Characters:</b> A separate library handles symbols such as <code>~# %^&*(){} >?/</code>[cite: 7].</li><li><b>Alphabets:</b> Letters require multiple libraries, differentiating between standalone characters and those appearing as the last character of a word[cite: 7].</li><li><b>Numbers:</b> A dedicated numerical library covers 0 through 99, alongside specific words for hundred, thousand, lakh, and crore[cite: 7].</li></ul><blockquote>Words separated by a space & dashes will be treated as two different words[cite: 7].</blockquote>"
+      "body": "<p>Beyond standard character groupings, Vointhez utilizes several separate libraries to manage different components of speech:</p><ul><li><b>Special Characters:</b> A separate library handles symbols such as <code>~# %^&*(){} >?/</code>.</li><li><b>Alphabets:</b> Letters require multiple libraries, differentiating between standalone characters and those appearing as the last character of a word.</li><li><b>Numbers:</b> A dedicated numerical library covers 0 through 99, alongside specific words for hundred, thousand, lakh, and crore.</li></ul><blockquote>Words separated by a space & dashes will be treated as two different words.</blockquote>"
     },
     {
       "heading": "Exceptional Pronunciations",
-      "body": "<p>Because certain words cannot be managed by the standard algorithm, a separate library for exceptional pronunciations must be maintained and updated over time[cite: 7]. For example, the word <code>Psychology</code> possesses an exceptional pronunciation and requires special addressing[cite: 7].</p>"
+      "body": "<p>Because certain words cannot be managed by the standard algorithm, a separate library for exceptional pronunciations must be maintained and updated over time. For example, the word <code>Psychology</code> possesses an exceptional pronunciation and requires special addressing.</p>"
     },
     {
       "heading": "Implementation & Compatibility",
-      "body": "<p>In practice, Vointhez is developed using Python due to its portability, rich libraries, and strong community support[cite: 8]. The implementation focuses on robustness, maintainability, and scalability[cite: 8].</p><ul><li><b>Vointhez API:</b> Designed for seamless integration into separate systems, the API promotes robust compatibility and high-speed processing for various industries[cite: 8].</li><li><b>Voice Modulation:</b> The TTS Engine incorporates voice modulation, allowing synthesized speech to render with slight variations[cite: 8].</li></ul>"
+      "body": "<p>In practice, Vointhez is developed using Python due to its portability, rich libraries, and strong community support. The implementation focuses on robustness, maintainability, and scalability.</p><ul><li><b>Vointhez API:</b> Designed for seamless integration into separate systems, the API promotes robust compatibility and high-speed processing for various industries.</li><li><b>Voice Modulation:</b> The TTS Engine incorporates voice modulation, allowing synthesized speech to render with slight variations.</li></ul>"
     }
   ],
   "attachments": [
