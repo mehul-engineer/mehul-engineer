@@ -54,7 +54,7 @@
       "title": "MEDMSII: A character Encoding/Decoding Tool",
       "desc": "Built a lightweight text obfuscation tool in Java that maps characters to custom binary codes, injects randomized noise bits, and applies a bitwise complement for scrambling, paired with a decoder that exactly reverses each step. A hands-on exploration of binary representation and building invertible algorithms.",
       "tech": ["Java", "Data Structures", "Bitwise Operations", "Binary Encoding", "String Manipulation", "Algorithm Design", "Object-Oriented Programming"],
-      "link": "https://github.com/mehul-engineer/medmsii.git"
+      "link": "https://mehul.engineer/articles/article.html?id=de%2F001"
     },
     {
       "title": "Vointhez",
