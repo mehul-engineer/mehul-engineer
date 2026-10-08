@@ -60,7 +60,7 @@
       "title": "Vointhez",
       "desc": "Authored a whitepaper proposing a new phonetic segmentation method for text-to-speech: splitting words into two-character pronunciation units via exhaustive lookup tables (676 letter-pair combinations, plus numeral and symbol libraries).",
       "tech": ["Natural Language Processing (NLP)", "Algorithm Design", "Speech Synthesis Concepts"],
-      "link": "https://workdrive.zohoexternal.in/file/6o213b9a5825f68b540cebc6925ce3f8effa7"
+      "link": "https://mehul.engineer/articles/article.html?id=ai-speech%2F001"
     }
   ],
     "experience": [
