@@ -1,7 +1,5 @@
 {
   "articles": [
-    
-   
     {
       "id": "de/001",
       "title": "MEMSII: A Technical Deep Dive into a Table-Driven Text-to-Bit Encoding Experiment",
@@ -147,5 +145,6 @@
         }
       ]
     }
+    
   ]
 }
