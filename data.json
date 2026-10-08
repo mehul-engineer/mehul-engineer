@@ -27,6 +27,11 @@
   },
   "projects": [
     {
+      "title": "yourNode (In Progress)",
+      "desc": "yourNode is a next-generation serverless platform that enables secure, real-time access to your computer from anywhere in the world. It allows you to read, create, edit, move, and manage files and folders live over the internet while your computer remains online and connected. All communication is end-to-end encrypted, ensuring that data is transferred securely without relying on third-party storage or permanently storing your files on remote servers. Designed for speed, privacy, and reliability, yourNode provides seamless remote file management with direct, encrypted communication between your devices.",
+      "tech": ["Rust", "Distributed Systems", "Concurrency", "Storage Systems", "Computer Networks", "High-Performance Computing", "Database Management Systems", "Django"]
+    },
+    {
       "title": "Next-Gen Operating System (In Progress)",
       "desc": "I founded and am spearheading a long-term, open-source initiative to architect and build a custom, secure-by-design operating system from scratch. As the lead systems engineer, I design the core kernel internals, preemptive thread scheduling, and low-level memory management for high-performance, bare-metal execution. Beyond core development, I drive the project's long-term research vision, focusing on next-generation computing concepts like hardware-agnostic portability and AI-assisted resource allocation.",
       "tech": ["Rust", "Assembly", "Kernel Architecture", "Systems Design"],
