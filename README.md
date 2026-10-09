@@ -49,7 +49,7 @@
       <code>Algorithm Design</code> <code>Compression</code>
     </td>
     <td width="50%" valign="top">
-      <h3 style="margin-bottom: 0;"><a href="https://github.com/mehul-engineer/medmsii.git" style="color: #FFFFFF; text-decoration: none;">MEDMSII</a></h3>
+      <h3 style="margin-bottom: 0;"><a href="https://github.com/mehul-engineer/medmsii.git" style="color: #FFFFFF; text-decoration: none;">MEMSII</a></h3>
       <p>A lightweight binary text obfuscation tool that injects randomized noise bits and applies bitwise complements for exact reversible scrambling.</p>
       <code>Data Structures</code> <code>Bitwise Ops</code>
     </td>
