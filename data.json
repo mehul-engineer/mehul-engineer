@@ -29,7 +29,7 @@
     {
       "title": "Inpherra (In Progress)",
       "desc": "Inpherra is a high-performance machine learning framework engineered from first principles to demonstrate the internal architecture of modern deep learning libraries. It implements tensor operations, computational graphs, automatic differentiation, neural network layers, and optimization algorithms while emphasizing clean systems design and efficient execution. The project serves as an educational and engineering-focused exploration of AI framework internals.",
-      "tech": ["Rust","Python","Machine Learning","Automatic Differentiation","Tensor Computing","Computational Graphs","Neural Networks","Systems Programming","High-Performance Computing"],
+      "tech": ["Rust","Python","Machine Learning","Automatic Differentiation","Tensor Computing","Computational Graphs","Neural Networks","Systems Programming","High-Performance Computing"]
     },
     {
       "title": "yourNode (In Progress)",
