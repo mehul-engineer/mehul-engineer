@@ -100,12 +100,12 @@
         {
           "title": "Download .zip",
           "type": "file",
-          "url": "https://github.com/mehul-engineer/medmsii/archive/refs/heads/main.zip"
+          "url": "https://github.com/mehul-engineer/memsii/archive/refs/heads/main.zip"
         },
         {
           "title": "Github Repository",
           "type": "file",
-          "url": "https://github.com/mehul-engineer/medmsii.git"
+          "url": "https://github.com/mehul-engineer/memsii.git"
         }
       ]
     },
