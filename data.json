@@ -172,7 +172,7 @@
   "skills": [
     {
       "category": "Languages",
-      "list": ["Java", "Python", "C", "Rust"]
+      "list": ["Java", "Rust", "Python", "C"]
     },
     {
       "category": "Systems Engineering",
