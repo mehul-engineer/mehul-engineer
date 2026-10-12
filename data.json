@@ -89,6 +89,12 @@
   ],
   "certifications": [
     {
+      "name": "General Formulation of Quantum Information",
+      "issuer": "IBM",
+      "year": "October 2026",
+      "link": "https://www.credly.com/badges/966a445c-3ff5-4441-b3f7-639587dd777d/public_url"
+    },
+    {
       "name": "Algorithms",
       "issuer": "Stanford Online <strong>via Coursera</strong>",
       "year": "October 2026",
