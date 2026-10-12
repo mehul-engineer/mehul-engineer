@@ -89,10 +89,58 @@
   ],
   "certifications": [
     {
+      "name": "Variational Algorithm Design",
+      "issuer": "IBM",
+      "year": "October 2026",
+      "link": "https://www.credly.com/badges/86e90059-44e7-40f7-a1f2-fa176b2496fd/public_url"
+    },
+    {
+      "name": "Foundations of Quantum Error Correction",
+      "issuer": "IBM",
+      "year": "October 2026",
+      "link": "https://www.credly.com/badges/807115ae-e712-444e-8045-60b4e8976839/public_url"
+    },
+    {
       "name": "General Formulation of Quantum Information",
       "issuer": "IBM",
       "year": "October 2026",
       "link": "https://www.credly.com/badges/966a445c-3ff5-4441-b3f7-639587dd777d/public_url"
+    },
+    {
+      "name": "Quantum Machine Learning",
+      "issuer": "IBM",
+      "year": "October 2026",
+      "link": "https://www.credly.com/badges/baf74a03-e53a-48c2-bc41-648356cdeb9d/public_url"
+    },
+    {
+      "name": "Integrating Quantum and High-Performance Computing",
+      "issuer": "IBM",
+      "year": "October 2026",
+      "link": "https://www.credly.com/badges/0730fc78-f4b3-45bd-9c4c-c280f98f08ac/public_url"
+    },
+    {
+      "name": "Quantum Diagonalization Algorithms",
+      "issuer": "IBM",
+      "year": "October 2026",
+      "link": "https://www.credly.com/badges/c66fb0b2-cfae-485e-ab0a-8bf9b4e8e5f8/public_url"
+    },
+    {
+      "name": "Fundamentals of Quantum Algorithms",
+      "issuer": "IBM",
+      "year": "October 2026",
+      "link": "https://www.credly.com/badges/6fd76263-f7fb-405c-8878-5c0f6f9fbe82/public_url"
+    },
+    {
+      "name": "Basics of Quantum Information",
+      "issuer": "IBM",
+      "year": "October 2026",
+      "link": "https://www.credly.com/badges/03dfbe38-3b1d-4c20-a9f6-a80519a2c8c9/public_url"
+    },
+     {
+      "name": "Using a Quantum Computer",
+      "issuer": "IBM",
+      "year": "October 2026",
+      "link": "https://www.credly.com/badges/df7a2e5f-9b8f-4cd5-bb7b-1eb7ed80ed0c/public_url"
     },
     {
       "name": "Algorithms",
