@@ -208,7 +208,7 @@
     },
     {
       "category": "AI Frameworks & Libraries",
-      "list": ["PyTorch","NumPy","Pandas","Scikit-learn","PyO3","Django","CUDA"]
+      "list": ["PyTorch","NumPy","Pandas","Scikit-learn","Django","CUDA"]
     },
     {
       "category": "Core CS",
