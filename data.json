@@ -89,6 +89,18 @@
   ],
   "certifications": [
     {
+      "name": "Quantum Machine Learning",
+      "issuer": "IBM",
+      "year": "October 2026",
+      "link": "https://www.credly.com/badges/baf74a03-e53a-48c2-bc41-648356cdeb9d/public_url"
+    },
+    {
+      "name": "Integrating Quantum and High-Performance Computing",
+      "issuer": "IBM",
+      "year": "October 2026",
+      "link": "https://www.credly.com/badges/0730fc78-f4b3-45bd-9c4c-c280f98f08ac/public_url"
+    },
+    {
       "name": "Algorithms",
       "issuer": "Stanford Online <strong>via Coursera</strong>",
       "year": "October 2026",
@@ -128,7 +140,6 @@
   "recommendations": [
     {
       "name": "Mr. Suraj Prakash",
-      "featured": true,
       "role": "CEO, TEXMiN(TTRP) Foundation, IIT(ISM) Dhanbad",
       "text": "He has a deep understanding of LLMs, software architecture and drives methodical data backed innovation.",
       "link": "https://www.linkedin.com/in/singhmehul2006/details/recommendations/"
