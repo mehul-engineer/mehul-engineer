@@ -1,7 +1,7 @@
 {
   "sections": {
-    "about":           { "order": 10 },
-    "featured":        { "order": 20, "show_limit": 6 },
+    "about":           { "order": 20 },
+    "featured":        { "order": 10, "show_limit": 6 },
     "research":        { "order": 30 },
     "experience":      { "order": 40 },
     "projects":        { "order": 50, "show_limit": 6 },
