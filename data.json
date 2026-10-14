@@ -119,7 +119,7 @@
       "name": "Quantum Machine Learning",
       "issuer": "IBM",
       "seal": "IBM",
-      "feature": "-99"
+      "featured": -99,
       "year": "October 2026",
       "order": 0,
       "link": "https://www.credly.com/badges/baf74a03-e53a-48c2-bc41-648356cdeb9d/public_url"
