@@ -40,6 +40,7 @@
     {
       "title": "Inpherra",
       "status": "in-progress",
+      "order": 0,
       "desc": "Inpherra is a high-performance machine learning framework engineered from first principles to demonstrate the internal architecture of modern deep learning libraries. It implements tensor operations, computational graphs, automatic differentiation, neural network layers, and optimization algorithms while emphasizing clean systems design and efficient execution. The project serves as an educational and engineering-focused exploration of AI framework internals.",
       "tech": ["Rust","Python","Machine Learning","Automatic Differentiation","Tensor Computing","Computational Graphs","Neural Networks","Systems Programming","High-Performance Computing"]
     },
@@ -47,12 +48,14 @@
       "title": "yourNode",
       "status": "in-progress",
       "featured": 1,
+      "order": -1,
       "desc": "yourNode is a next-generation serverless platform that enables secure, real-time access to your computer from anywhere in the world. It allows you to read, create, edit, move, and manage files and folders live over the internet while your computer remains online and connected. All communication is end-to-end encrypted, ensuring that data is transferred securely without relying on third-party storage or permanently storing your files on remote servers. Designed for speed, privacy, and reliability, yourNode provides seamless remote file management with direct, encrypted communication between your devices.",
       "tech": ["Rust", "Distributed Systems", "Concurrency", "Storage Systems", "Computer Networks", "High-Performance Computing", "Database Management Systems"]
     },
     {
       "title": "Next-Gen Operating System",
       "status": "in-progress",
+      "order": 2,
       "desc": "I founded and am spearheading a long-term, open-source initiative to architect and build a custom, secure-by-design operating system from scratch. As the lead systems engineer, I design the core kernel internals, preemptive thread scheduling, and low-level memory management for high-performance, bare-metal execution. Beyond core development, I drive the project's long-term research vision, focusing on next-generation computing concepts like hardware-agnostic portability and AI-assisted resource allocation.",
       "tech": ["Rust", "Assembly", "Kernel Architecture", "Systems Design"],
       "link": "https://os.evolves.cc"
@@ -117,7 +120,7 @@
       "issuer": "IBM",
       "seal": "IBM",
       "year": "October 2026",
-      "order": 2,
+      "order": 0,
       "link": "https://www.credly.com/badges/baf74a03-e53a-48c2-bc41-648356cdeb9d/public_url"
     },
     {
@@ -125,7 +128,7 @@
       "issuer": "IBM",
       "seal": "IBM",
       "year": "October 2026",
-      "order": 3,
+      "order": -1,
       "link": "https://www.credly.com/badges/0730fc78-f4b3-45bd-9c4c-c280f98f08ac/public_url"
     },
     {
@@ -133,7 +136,7 @@
       "issuer": "Stanford Online <strong>via Coursera</strong>",
       "seal": "Stanford",
       "year": "October 2026",
-      "order": 1,
+      "order": 3,
       "link": "https://www.coursera.org/account/accomplishments/specialization/7079FMBTJEXD"
     },
     {
