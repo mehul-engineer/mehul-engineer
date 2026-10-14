@@ -127,7 +127,7 @@
       ],
       "sections": [
         {
-          "heading": "Abstract",
+          "heading": "Introduction",
           "body": "<p>This article analyzes the supplied BBRES-RNG v1.2.0 Java source, two architecture diagrams, and the BBRES-RNG Combined Validation Report dated July 25, 2026. It reconstructs the bit-generation path from worker creation through scheduler-sensitive assignment, XOR reduction, and bounded-range sampling. It then summarizes the report's bit-level, integer-level, prediction, and entropy analyses, including the Cramér–von Mises failure and the report's own SP 800-90B caveats. The central engineering question is not whether the output looks random in a finite battery, but whether the scheduling process can be modeled, measured, and shown to supply sufficient entropy across platforms and restarts.</p>"
         },
         {
