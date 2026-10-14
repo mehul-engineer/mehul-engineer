@@ -1,4 +1,15 @@
 {
+  "sections": {
+    "about":           { "order": 10 },
+    "featured":        { "order": 20, "show_limit": 6 },
+    "research":        { "order": 30 },
+    "experience":      { "order": 40 },
+    "projects":        { "order": 50, "show_limit": 6 },
+    "certifications":  { "order": 60, "show_limit": 4 },
+    "recommendations": { "order": 70, "show_limit": 4 },
+    "skills":          { "order": 80 },
+    "contact":         { "order": 90 }
+  },
   "hero": {
     "role": "AI & Systems Engineer",
     "name": "Mehul Singh.",
@@ -15,8 +26,8 @@
     "text": "I am a systems researcher and engineer driven by a fundamental need to understand how things work at their core. Rather than assembling off-the-shelf components, I deconstruct problems to their base assumptions, focusing on structural elegance, mathematical correctness, and computational efficiency. My cross-domain approach bridges physical system behavior with software architecture, allowing me to conceptualize and build robust systems characterized by deep analytical maturity and rigorous validation.",
     "stats": [
       { "title": "AI & Systems", "subtitle": "Research & Arch" },
-      { 
-        "title": "Top 5%", 
+      {
+        "title": "Top 5%",
         "subtitle": "Analytical Ability",
         "citation": "Ref: LOR (Dr. Pandey)",
         "citation_link": "#recommendations"
@@ -27,57 +38,69 @@
   },
   "projects": [
     {
-      "title": "Inpherra (In Progress)",
+      "title": "Inpherra",
+      "status": "in-progress",
       "desc": "Inpherra is a high-performance machine learning framework engineered from first principles to demonstrate the internal architecture of modern deep learning libraries. It implements tensor operations, computational graphs, automatic differentiation, neural network layers, and optimization algorithms while emphasizing clean systems design and efficient execution. The project serves as an educational and engineering-focused exploration of AI framework internals.",
       "tech": ["Rust","Python","Machine Learning","Automatic Differentiation","Tensor Computing","Computational Graphs","Neural Networks","Systems Programming","High-Performance Computing"]
     },
     {
-      "title": "yourNode (In Progress)",
+      "title": "yourNode",
+      "status": "in-progress",
+      "featured": 1,
       "desc": "yourNode is a next-generation serverless platform that enables secure, real-time access to your computer from anywhere in the world. It allows you to read, create, edit, move, and manage files and folders live over the internet while your computer remains online and connected. All communication is end-to-end encrypted, ensuring that data is transferred securely without relying on third-party storage or permanently storing your files on remote servers. Designed for speed, privacy, and reliability, yourNode provides seamless remote file management with direct, encrypted communication between your devices.",
       "tech": ["Rust", "Distributed Systems", "Concurrency", "Storage Systems", "Computer Networks", "High-Performance Computing", "Database Management Systems"]
     },
     {
-      "title": "Next-Gen Operating System (In Progress)",
+      "title": "Next-Gen Operating System",
+      "status": "in-progress",
       "desc": "I founded and am spearheading a long-term, open-source initiative to architect and build a custom, secure-by-design operating system from scratch. As the lead systems engineer, I design the core kernel internals, preemptive thread scheduling, and low-level memory management for high-performance, bare-metal execution. Beyond core development, I drive the project's long-term research vision, focusing on next-generation computing concepts like hardware-agnostic portability and AI-assisted resource allocation.",
       "tech": ["Rust", "Assembly", "Kernel Architecture", "Systems Design"],
       "link": "https://os.evolves.cc"
     },
     {
       "title": "BBRES-RNG: Scheduler-Based Entropy Engine",
+      "status": "completed",
+      "order": 4,
+      "featured": 2,
       "desc": "I architected a scheduler-based entropy engine that utilizes OS thread-scheduling nondeterminism to produce high-quality entropy for PRNG/CSPRNG seeding. The system supports 32x32 concurrent thread-segment execution and features modular entropy collection, bit mixing, and bounded random number generation. It achieved a near-perfect 7.999952/8.0 Shannon entropy and demonstrated exceptional statistical robustness against NIST SP 800-22 and adversarial machine learning attacks.",
       "tech": ["Java", "Concurrency", "Entropy", "NIST SP 800-22"],
       "link": "https://mehul.engineer/articles/article.html?id=sys-eng%2F001"
     },
     {
       "title": "Zero-Copy Segmented Commit Log",
+      "status": "completed",
       "desc": "I engineered a high-throughput segmented commit log designed for concurrent appends, crash recovery, and persistent storage. By minimizing synchronization overhead, the system achieved a processing rate of over 4.39 million messages per second across four concurrent producer threads. I also implemented scalable segment lifecycle management, ensuring automatic creation, rollover, and recovery for a production-ready storage solution.",
       "tech": ["Java", "NIO", "Concurrency", "Storage Systems"],
       "link": "https://github.com/mehul-engineer/Zero-Copy-Segmented-Commit-Log.git"
     },
     {
       "title": "Archiver",
+      "status": "completed",
       "desc": "I architected a custom binary archive format featuring recursive directory packaging, metadata preservation, and CRC32 integrity verification. To optimize performance, I engineered a streaming archive engine that enables the scalable, memory-efficient processing of large files and nested directories. Furthermore, I developed a pluggable compression framework utilizing the Strategy Pattern to seamlessly integrate Huffman and LZW compression algorithms.",
       "tech": ["Algorithm Design", "Java", "Compression Algorithms"],
       "link": "https://github.com/mehul-engineer/archiver.git"
     },
-        {
+    {
       "title": "MEDMSII: A character Encoding/Decoding Tool",
+      "status": "completed",
       "desc": "Built a lightweight text obfuscation tool in Java that maps characters to custom binary codes, injects randomized noise bits, and applies a bitwise complement for scrambling, paired with a decoder that exactly reverses each step. A hands-on exploration of binary representation and building invertible algorithms.",
       "tech": ["Java", "Data Structures", "Bitwise Operations", "Binary Encoding", "String Manipulation", "Algorithm Design", "Object-Oriented Programming"],
       "link": "https://mehul.engineer/articles/article.html?id=de%2F001"
     },
     {
       "title": "Vointhez",
+      "status": "proposal",
       "desc": "Authored a whitepaper proposing a new phonetic segmentation method for text-to-speech: splitting words into two-character pronunciation units via exhaustive lookup tables (676 letter-pair combinations, plus numeral and symbol libraries).",
       "tech": ["Natural Language Processing (NLP)", "Algorithm Design", "Speech Synthesis Concepts"],
       "link": "https://mehul.engineer/articles/article.html?id=nlp%2F001"
     }
   ],
-    "experience": [
+  "experience": [
     {
       "date": "May 2026 - June 2026",
       "role": "Research Intern",
       "org": "TEXMiN(TTRP) Foundation, IIT(ISM) Dhanbad",
+      "featured": 3,
       "desc": "Built a domain-specific tokenizer for mining and geological text as part of applied NLP research. Optimized tokenization algorithms to handle technical vocabulary heavily underrepresented in standard text corpora.",
       "link": "https://workdrive.zohoexternal.in/file/1x2642e03f13414404f539954bd93981f0f57"
     },
@@ -94,6 +117,7 @@
       "issuer": "IBM",
       "seal": "IBM",
       "year": "October 2026",
+      "order": 2,
       "link": "https://www.credly.com/badges/baf74a03-e53a-48c2-bc41-648356cdeb9d/public_url"
     },
     {
@@ -101,6 +125,7 @@
       "issuer": "IBM",
       "seal": "IBM",
       "year": "October 2026",
+      "order": 3,
       "link": "https://www.credly.com/badges/0730fc78-f4b3-45bd-9c4c-c280f98f08ac/public_url"
     },
     {
@@ -108,6 +133,7 @@
       "issuer": "Stanford Online <strong>via Coursera</strong>",
       "seal": "Stanford",
       "year": "October 2026",
+      "order": 1,
       "link": "https://www.coursera.org/account/accomplishments/specialization/7079FMBTJEXD"
     },
     {
@@ -117,11 +143,12 @@
       "year": "October 2026",
       "link": "https://www.coursera.org/account/accomplishments/verify/YS702E8EAZYY"
     },
-     {
+    {
       "name": "Operating Systems",
       "issuer": "Birla Institute of Technology & Science, Pilani <strong>via Coursera</strong>",
       "seal": "BITS",
       "year": "October 2026",
+      "order": 4,
       "link": "https://www.coursera.org/account/accomplishments/verify/4YWVQGKSY7AX"
     },
     {
@@ -143,13 +170,16 @@
       "issuer": "Birla Institute of Technology & Science, Pilani <strong>via Coursera</strong>",
       "seal": "BITS",
       "year": "September 2026",
+      "order": 2,
       "link": "https://www.coursera.org/account/accomplishments/verify/WJ1JZGBEMOXS"
-    } 
+    }
   ],
   "recommendations": [
     {
       "name": "Mr. Suraj Prakash",
       "role": "Former CEO, TEXMiN(TTRP) Foundation, IIT(ISM) Dhanbad",
+      "relation": "Suraj managed Mehul directly",
+      "featured": 4,
       "text": "He has a deep understanding of LLMs, software architecture and drives methodical data backed innovation.",
       "type": "linkedin",
       "link": "https://www.linkedin.com/in/mehulengineer/details/recommendations/"
@@ -157,6 +187,7 @@
     {
       "name": "Dr. Ankur Soam",
       "role": "Ph.D. IIT Bombay, M.Tech IIT Delhi",
+      "relation": "Ankur was Mehul's professor",
       "text": "He stands out for his research-oriented mindset, focusing on fundamental understanding rather than superficial solutions.",
       "type": "letter",
       "link": "https://workdrive.zohoexternal.in/file/6o2136425bf90b43e4524bcfda0984b158b5f"
@@ -164,6 +195,7 @@
     {
       "name": "Dr. Krishna Kant Pandey",
       "role": "Ph.D. NIT Rourkela",
+      "relation": "Krishna is Mehul's mentor",
       "text": "I would place Mehul among the top 5% of students I have encountered in terms of analytical ability and research potential.",
       "type": "letter",
       "link": "https://workdrive.zohoexternal.in/file/6o2138a0855331bc942ae8316e1af11660433"
@@ -171,6 +203,7 @@
     {
       "name": "Dr. Surbhi Sharma",
       "role": "Ph.D. Banasthali Vidyapith",
+      "relation": "Surbhi was Mehul's professor",
       "text": "What distinguishes Mehul is his ability to combine conceptual depth with practical system-building skills.",
       "type": "letter",
       "link": "https://workdrive.zohoexternal.in/file/6o2136319fe842ba34ba2bf7b9f1d342f8d81"
@@ -178,6 +211,7 @@
     {
       "name": "Dr. Shishir Singh Chauhan",
       "role": "Ph.D. NIT Jamshedpur",
+      "relation": "Shishir is Mehul's bachelor's project guilde",
       "text": "He considers architecture, usability, scalability, and the broader implications of technical decisions rather than focusing solely on functionality.",
       "type": "letter",
       "link": "https://workdrive.zohoexternal.in/file/6o21315becb59037241efbc7cc4360a8982f4"
@@ -185,6 +219,7 @@
     {
       "name": "Dr. Dinesh Sharma",
       "role": "Ph.D. Uttarakhand Technical University",
+      "relation": "Dinesh was Mehul's mentor",
       "text": "I'd comfortably place him in the top 5% of undergraduates I've taught in terms of research potential and technical initiative.",
       "type": "linkedin",
       "link": "https://www.linkedin.com/in/mehulengineer/details/recommendations/"
@@ -192,6 +227,7 @@
     {
       "name": "Mr. Raghuvesh Tiwari",
       "role": "M.Tech. Rajasthan Technical University",
+      "relation": "Raghuvesh is Mehul's mentor",
       "text": "In my decade-long teaching career, I have rarely encountered an undergraduate student with his level of insight.",
       "type": "linkedin",
       "link": "https://www.linkedin.com/in/mehulengineer/details/recommendations/"
