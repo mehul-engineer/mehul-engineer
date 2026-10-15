@@ -119,6 +119,7 @@
       "name": "Quantum Machine Learning",
       "issuer": "IBM",
       "seal": "IBM",
+      "id": "baf74a03-e53a-48c2-bc41-648356cdeb9d",
       "year": "October 2026",
       "order": 0,
       "link": "https://www.credly.com/badges/baf74a03-e53a-48c2-bc41-648356cdeb9d/public_url"
@@ -127,6 +128,7 @@
       "name": "Integrating Quantum and High-Performance Computing",
       "issuer": "IBM",
       "seal": "IBM",
+      "id": "0730fc78-f4b3-45bd-9c4c-c280f98f08ac",
       "year": "October 2026",
       "order": -1,
       "link": "https://www.credly.com/badges/0730fc78-f4b3-45bd-9c4c-c280f98f08ac/public_url"
@@ -135,6 +137,7 @@
       "name": "Algorithms",
       "issuer": "Stanford Online <strong>via Coursera</strong>",
       "seal": "Stanford",
+      "id": "7079FMBTJEXD",
       "year": "October 2026",
       "order": 3,
       "link": "https://www.coursera.org/account/accomplishments/specialization/7079FMBTJEXD"
@@ -143,6 +146,7 @@
       "name": "Automata and Computability",
       "issuer": "Birla Institute of Technology & Science, Pilani <strong>via Coursera</strong>",
       "seal": "BITS",
+      "id": "YS702E8EAZYY",
       "year": "October 2026",
       "link": "https://www.coursera.org/account/accomplishments/verify/YS702E8EAZYY"
     },
@@ -150,6 +154,7 @@
       "name": "Operating Systems",
       "issuer": "Birla Institute of Technology & Science, Pilani <strong>via Coursera</strong>",
       "seal": "BITS",
+      "id": "4YWVQGKSY7AX",
       "year": "October 2026",
       "order": 4,
       "link": "https://www.coursera.org/account/accomplishments/verify/4YWVQGKSY7AX"
@@ -158,6 +163,7 @@
       "name": "Mathematics for Machine Learning and Data Science",
       "issuer": "DeepLearning.ai",
       "seal": "DeepLearning.ai",
+      "id": "b47cd336-ce00-43bd-a254-bcb678769197",
       "year": "October 2026",
       "link": "https://www.deeplearning.ai/certificates/b47cd336-ce00-43bd-a254-bcb678769197"
     },
@@ -165,6 +171,7 @@
       "name": "Building Django Applications with Databases",
       "issuer": "IBM",
       "seal": "IBM",
+      "id": "21a593af-1029-4dae-a95a-5b564cd56d1",
       "year": "September 2026",
       "link": "https://www.credly.com/badges/21a593af-1029-4dae-a95a-5b564cd56d12/public_url"
     },
@@ -172,6 +179,7 @@
       "name": "Multicore and GPGPU Programming",
       "issuer": "Birla Institute of Technology & Science, Pilani <strong>via Coursera</strong>",
       "seal": "BITS",
+      "id": "WJ1JZGBEMOXS",
       "year": "September 2026",
       "order": 2,
       "link": "https://www.coursera.org/account/accomplishments/verify/WJ1JZGBEMOXS"
