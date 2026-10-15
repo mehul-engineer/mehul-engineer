@@ -118,6 +118,7 @@
     {
       "name": "Quantum Machine Learning",
       "issuer": "IBM",
+      "featured": -999
       "seal": "IBM",
       "year": "October 2026",
       "order": 0,
