@@ -2,12 +2,12 @@
   "sections": {
     "about":           { "order": 20 },
     "featured":        { "order": 10, "show_limit": 6 },
-    "research":        { "order": 30 },
-    "experience":      { "order": 40 },
-    "projects":        { "order": 50, "show_limit": 6 },
-    "certifications":  { "order": 60, "show_limit": 4 },
-    "recommendations": { "order": 70, "show_limit": 4 },
-    "skills":          { "order": 80 },
+    "research":        { "order": 50 },
+    "experience":      { "order": 30 },
+    "projects":        { "order": 40, "show_limit": 6 },
+    "certifications":  { "order": 70, "show_limit": 4 },
+    "recommendations": { "order": 80, "show_limit": 4 },
+    "skills":          { "order": 60 },
     "contact":         { "order": 90 }
   },
   "hero": {
